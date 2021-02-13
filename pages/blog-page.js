@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Post from "../components/Post";
-import { getAllPostData } from "../lib/post";
+import { getAllPostData } from "../lib/posts";
 
 const Blog = ({ posts }) => {
   return (
